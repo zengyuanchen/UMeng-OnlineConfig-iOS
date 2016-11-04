@@ -65,3 +65,8 @@ xxxx为友盟服务器上事先设置好的参数id。如果你想获取所有�
 这两个方法都是从 `[NSUserDefaults standardUserDefaults]` 获取缓存的值， 所以上面的 `[UMOnlineConfig updateOnlineConfigWithAppkey:]` 方法要先在app启动时被调用。
 
 详细的功能使用，请参考[官方文档](http://dev.umeng.com/online-parameters/ios-doc--2/intergration)。
+
+
+友盟 组件 里面找到在线参数设置入口
+在组件那里，左侧有别的功能，点其中几个就会发现地址栏有一部分是不变的， 把后边改变的部分，替换成
+online_config/show_parameters
